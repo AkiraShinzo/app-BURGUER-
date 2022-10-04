@@ -22,7 +22,15 @@ const routes: Routes = [
   {
     path: 'user',
     loadChildren: () => import('./pages/user/user.module').then( m => m.UserPageModule)
+  },  {
+    path: 'loyalty-points',
+    loadChildren: () => import('./pages/loyalty-points/loyalty-points.module').then( m => m.LoyaltyPointsPageModule)
   },
+  {
+    path: 'cardapio',
+    loadChildren: () => import('./pages/cardapio/cardapio.module').then( m => m.CardapioPageModule)
+  },
+
 
   
 

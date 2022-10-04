@@ -1,0 +1,27 @@
+ion-content{
+  .black{
+      background-color: black;
+      background-image: url('/assets/back.png');
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .Pontos{
+        align-items: center;
+      }
+      h1{
+        color: #ffffff;
+        font-family: OCR A Std, monospace;
+      }
+      h3{
+        font-family: OCR A Std, monospace;
+        color: #ffffff;
+      }
+      h6{
+        font-family: OCR A Std, monospace;
+        color: #ffffff;
+      }
+}
+}

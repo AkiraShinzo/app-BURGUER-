@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button text="voltar" defaultHref="user"></ion-back-button>
+      <ion-back-button text="voltar" defaultHref="home"></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -9,11 +9,12 @@
 <ion-content>
   <div class="black">
 
-    <ion-avatar>
-      <img  src="/assets/user.png" />
-    </ion-avatar>
+    <div class="user">
+    </div>
+    <h2>Lui Kang</h2>
 
-  <ion-button color="warning" size="small" Href="user">Perfil</ion-button>
-  <ion-button (click)="sair()" color="warning" size="small">Voltar</ion-button>
+  <ion-button color="warning" size="full" expand="block" shape="round">Endereços</ion-button>
+  <ion-button color="warning" size="full" expand="block" shape="round" Href="../loyalty-points">Pontos de Fidelidade</ion-button>
+  <ion-button (click)="sair()" color="warning" size="full" expand="block" shape="round">Sair</ion-button>
 </div>
 </ion-content>
